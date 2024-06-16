@@ -1,0 +1,86 @@
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 4
+
+   Combined South Racing teams and cars list
+   Author: Dakshesh Kaki
+   Date: June 16th 2024
+
+   Filename: teamscars.xml
+   Supporting Files: teams.css, cars.css
+-->
+<?xml-stylesheet type="text/css" href="teamstxt.css"?>
+<?xml-stylesheet type="text/css" href="carstxt.css"?>
+
+<teams xmlns:teams="teams_namespace" xmlns:cars="cars_namespace">
+   <team tid="t205">
+      <title>Rodas Motorsports</title>
+      <description>#1 Team in racing</description>
+      <series>Indy</series>
+      <cars:cars>
+         <cars:car cid="nes201">
+            <cars:title>Straight Away</cars:title>
+            <cars:model>Nissan</cars:model>
+            <cars:driver>indy</cars:driver>
+         </cars:car>
+         <cars:car cid="gda100-5">      
+            <cars:title>Quick Start</cars:title>
+            <cars:model>General Motors</cars:model>
+            <cars:driver>indy</cars:driver>      
+         </cars:car>
+         <cars:car cid="gma005-2">      
+            <cars:title>Stop Blocks Laps</cars:title>
+            <cars:model>Ford</cars:model>
+            <cars:driver>indy</cars:driver>     
+         </cars:car>
+         <cars:car cid="sob-450V4">      
+            <cars:title>Bendwinder</cars:title>
+            <cars:model>Ford</cars:model>
+            <cars:driver>412</cars:driver>     
+         </cars:car>
+         <cars:car cid="hen01-53">    
+            <cars:title>Turn Twister</cars:title>
+            <cars:model>Nissan</cars:model>
+            <cars:driver>indy</cars:driver>   
+         </cars:car>
+      </cars:cars>
+   </team>
+   <team tid="t105">
+      <title>SAM Racing</title>
+      <description>Top 10 over last 5 years</description>
+      <series>Nascar</series>
+      <cars:cars>
+         <cars:car cid="nes201">
+            <cars:title>Straight Away</cars:title>
+            <cars:model>Nissan</cars:model>
+            <cars:driver>indy</cars:driver>
+         </cars:car>
+         <cars:car cid="gda100-5">      
+            <cars:title>Quick Start</cars:title>
+            <cars:model>General Motors</cars:model>
+            <cars:driver>indy</cars:driver>      
+         </cars:car>
+         <cars:car cid="gma005-2">      
+            <cars:title>Stop Blocks Laps</cars:title>
+            <cars:model>Ford</cars:model>
+            <cars:driver>indy</cars:driver>     
+         </cars:car>
+         <cars:car cid="sob-450V4">      
+            <cars:title>Bendwinder</cars:title>
+            <cars:model>Ford</cars:model>
+            <cars:driver>412</cars:driver>     
+         </cars:car>
+         <cars:car cid="stu-050V4">      
+            <cars:title>Sleeker</cars:title>
+            <cars:model>General Motors</cars:model>
+            <cars:driver>278</cars:driver>     
+         </cars:car>
+         <cars:car cid="dej01-003">    
+            <cars:title>84 Racer</cars:title>
+            <cars:model>General Motors</cars:model>
+            <cars:driver>198</cars:driver>   
+         </cars:car>
+      </cars:cars>
+   </team>
+</teams>

@@ -1,0 +1,26 @@
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 4
+
+   South Racing teams list
+   Author: Dakshesh Kaki
+   Date: June 16th 2024
+
+   Filename: teams.xml
+   Supporting Files: teams.css
+-->
+<?xml-stylesheet type="text/css" href="teamstxt.css"?>
+
+<teams>
+   <team tid="t205">
+      <title>Rodas Motorsports</title>
+      <description>#1 Team in racing</description>
+      <series>Indy</series>
+   </team>
+   <team tid="t105">
+      <title>SAM Racing</title>
+      <description>Top 10 over last 5 years</description>
+      <series>Nascar</series>
+   </team>
+</teams>
